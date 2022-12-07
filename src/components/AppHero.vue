@@ -4,11 +4,11 @@
         }
     </script>
 <template>
-    <div class="container">
+    <div class="container hero">
         <div class="row">
             <div class="col-12 d-flex justify-content-between align-items-center">
                 <div class="my-2 mx-2">
-                    <img src="../assets/avada-movers-logo.png" alt="">
+                   <img src="../assets/img/avada-movers-logo.png" alt="">
                 </div>
                 <div class="d-flex my-3 ">
                     <ul class="d-flex general-typography">
@@ -29,10 +29,17 @@
             <small class="my-1">PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION</small>
         </div>
     </div>
+    <div class="final-link">
+        <i class="fa-solid fa-location-arrow"></i><small class="mx-2">GET A FREE QUOTE ONLINE NOW!</small>
+    </div>
+   
 </template>
 
 
 <style lang="scss" scoped>
+    .hero{
+        background-image: url(../assets/img/avada-movers-homeherobackground-final.jpg)
+    }
     img{
         max-width: 6.25rem;
         max-height: 6.25rem;
@@ -67,6 +74,16 @@
         }
         h1, small{
             font-weight: 900;
+        }
+    }
+    .final-link{
+        background-color: #1775bf;
+        color: #ffff;
+        height:5rem ;
+        text-align: center;
+        line-height: 5rem;
+        small{
+            font-size: .75rem;
         }
     }
 </style>
