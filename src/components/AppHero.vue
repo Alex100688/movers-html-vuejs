@@ -24,9 +24,9 @@
             </div>
         </div>
         <div class="d-flex flex-column justify-content-center align-items-center hero-title">
-            <small class="my-1">MOVING WITHOUT THE HASSLE</small>
+            <small class="my-1 general-small">MOVING WITHOUT THE HASSLE</small>
             <h1>WE MAKE IT SIMPLE</h1>
-            <small class="my-1">PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION</small>
+            <small class="my-1 general-small">PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION</small>
         </div>
     </div>
     <div class="final-link">
@@ -65,10 +65,6 @@
     }
     .hero-title{
         margin-top: 4.0625rem;
-        small{
-            color: #777777;
-            font-size: .75rem;
-        }
         h1{
             font-size: 3.125rem;
         }
@@ -77,11 +73,12 @@
         }
     }
     .final-link{
+        margin: 6.25rem;
         background-color: #1775bf;
         color: #ffff;
-        height:5rem ;
+        height:3.75rem ;
         text-align: center;
-        line-height: 5rem;
+        line-height: 3.75rem;
         small{
             font-size: .75rem;
         }

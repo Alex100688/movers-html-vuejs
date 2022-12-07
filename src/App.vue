@@ -28,4 +28,8 @@ export default {
   font-size: .875rem;
   font-weight: 900;
 }
+.general-small{
+  color: #777777;
+  font-size: .75rem;
+}
 </style>

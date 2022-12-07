@@ -1,11 +1,15 @@
 <script>
-    export default {
-     name:"AppMain"   
+import AppSectionStar from './AppSectionStar.vue'
+export default {
+    components: {
+        AppSectionStar,
+        },
+    name:"AppMain"   
     }
 </script>
 <template>
     <div>
-
+        <AppSectionStar class="container"/>
     </div>
 </template>
 
