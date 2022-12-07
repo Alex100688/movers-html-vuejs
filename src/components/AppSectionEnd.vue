@@ -5,7 +5,7 @@
 </script>
 <template>
    <div class="d-flex flex-column justify-content-center align-items-center section-end">
-        <small class="general-small">HAPPY CUSTOMERS</small>
+        <small class="general-small mt-5">HAPPY CUSTOMERS</small>
         <h2>Testimonials</h2>
         <div class="row  mt-5">
             <div class="col-4">
@@ -43,6 +43,7 @@
 
 <style lang="scss" scoped>
     .section-end{
+        background-image: url(../assets/img/avada-movers-testimonial-background.jpg);
         margin-top: 3.75rem;
     }
     h2{
@@ -67,12 +68,14 @@
         }
         p{
             font-size: .875rem;
+            font-weight: 900;
             font-style: italic;
-            widows: 9.375rem;
+            widows: 11.25rem;
             color: #7777;
         }
     }
     button{
+        margin-top: 2.5rem;
         width: 15.625rem;
         border-radius: 1.25rem;
     }
