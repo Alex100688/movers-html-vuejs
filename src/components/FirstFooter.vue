@@ -14,22 +14,22 @@
         </div>
         <div class="col-4">
             <h6>AVADA MOVERS</h6>
-            <ul>
-                <li>Home</li>
-                <li>Rates</li>
-                <li>Testimonials</li>
-                <li>Blog</li>
-                <li>Free Quote</li>
+            <ul class="special-footer">
+                <li><i class="fa-solid fa-chevron-right mx-3"></i>Home</li>
+                <li><i class="fa-solid fa-chevron-right mx-3"></i>Rates</li>
+                <li><i class="fa-solid fa-chevron-right mx-3"></i>Testimonials</li>
+                <li><i class="fa-solid fa-chevron-right mx-3"></i>Blog</li>
+                <li><i class="fa-solid fa-chevron-right mx-3"></i>Free Quote</li>
             </ul>
         </div>
         <div class="col-4">
             <h6>RECENT POSTS</h6>
             <ul>
-                <li>Heading out to college</li>
-                <li>Moving your business</li>
-                <li>Outstading quality</li>
-                <li>Cost of Moving</li>
-                <li>Best Moving Tips</li>
+                <li><i class="fa-solid fa-chevron-right mx-3"></i>Heading out to college</li>
+                <li><i class="fa-solid fa-chevron-right mx-3"></i>Moving your business</li>
+                <li><i class="fa-solid fa-chevron-right mx-3"></i>Outstading quality</li>
+                <li><i class="fa-solid fa-chevron-right mx-3"></i>Cost of Moving</li>
+                <li><i class="fa-solid fa-chevron-right mx-3"></i>Best Moving Tips</li>
             </ul>
         </div>
     </div>
@@ -42,9 +42,21 @@
         max-width: 6.25rem;
         max-height: 6.25rem;
     }
-    
+    h6, p{
+        text-align: center;
+    }
+    .special-footer > li:first-child{
+        color: #6abf17;
+    }
+    ul{
+        list-style: none;
+    }
+    li {
+        margin-bottom: .625rem;
+        margin-left: 4.375rem;
+       
+    }
     p, ul{
-        font-size: .875rem;
-        color: #7777;
+        font-size: .8125rem;
     }
 </style>

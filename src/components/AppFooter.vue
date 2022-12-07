@@ -1,8 +1,10 @@
 <script>
-    import FirstFooter from './FirstFooter.vue';
+import FirstFooter from './FirstFooter.vue';
+import FooterInformation from './FooterInformation.vue;'
 export default {
         components: {
-            FirstFooter,
+        FirstFooter,
+        FooterInformation,
         },
     name: "AppFooter"
         
@@ -11,6 +13,9 @@ export default {
 <template>
     <div class="container">
         <FirstFooter/>
+    </div>
+    <div class="container">
+        <FooterInformation/>
     </div>
 </template>
 
