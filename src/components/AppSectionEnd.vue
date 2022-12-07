@@ -70,12 +70,13 @@
             font-size: .875rem;
             font-weight: 900;
             font-style: italic;
-            widows: 11.25rem;
+            width: 11.25rem;
             color: #7777;
         }
     }
     button{
         margin-top: 2.5rem;
+        margin-bottom: 1.5625rem;
         width: 15.625rem;
         border-radius: 1.25rem;
     }
