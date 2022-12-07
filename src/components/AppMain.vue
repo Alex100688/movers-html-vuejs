@@ -1,10 +1,12 @@
 <script>
 import AppSectionStart from './AppSectionStart.vue';
 import AppSectionCenter from './AppSectionCenter.vue';
+import AppSectionCenterUnder from './AppSectionCenterUnder.vue'
 export default {
     components: {
         AppSectionStart,
         AppSectionCenter,
+        AppSectionCenterUnder,
         },
     name:"AppMain"   
     }
@@ -15,6 +17,9 @@ export default {
     </div>
     <div>
         <AppSectionCenter class="container"/>
+    </div>
+    <div>
+        <AppSectionCenterUnder class="container"/>
     </div>
 </template>
 
