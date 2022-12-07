@@ -28,7 +28,7 @@ export default {
     <div>
         <AppSectionEnd class="container"/>
     </div>
-    <div>
+    <div class="second-end">
         <AppSectionSecondEnd class="container"/>
     </div>
 </template>
@@ -37,6 +37,10 @@ export default {
 <style lang="scss" scoped>
     .background-first{
         background-color: #f4f8fb;
+    }
+    .second-end{
+        background-image: url(../assets/img/avada-movers-request-quote-background.jpg);
+        margin-top: 3.75rem;
     }
 
 </style>

@@ -1,6 +1,6 @@
 <script>
 import FirstFooter from './FirstFooter.vue';
-import FooterInformation from './FooterInformation.vue;'
+import FooterInformation from './FooterInformation.vue';
 export default {
         components: {
         FirstFooter,
@@ -11,15 +11,19 @@ export default {
     }
 </script>
 <template>
-    <div class="container">
-        <FirstFooter/>
+    <div>
+        <FirstFooter class="container"/>
     </div>
-    <div class="container">
-        <FooterInformation/>
+    <div class="footer-information">
+        <FooterInformation class="container"/>
     </div>
 </template>
 
 
 <style lang="scss" scoped>
-
+    .footer-information{
+        margin-top: 2.5rem;
+        background-color: #6abf17;
+        color: #ffff;
+    }
 </style>
