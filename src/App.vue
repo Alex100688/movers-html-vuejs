@@ -32,5 +32,6 @@ export default {
 .general-small{
   color: #777777;
   font-size: .75rem;
+  font-weight: 900;
 }
 </style>

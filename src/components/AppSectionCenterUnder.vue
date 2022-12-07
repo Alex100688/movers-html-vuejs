@@ -16,22 +16,21 @@
             </p>
             <button type="button" class="general-button">GET A FREE QUOTE NOW</button>    
        </div>
-        </div>
-
-    
-   
+    </div>  
 </template>
 
 
 <style lang="scss" scoped>
-    
+    .center-under{
+        margin-top: 3.75rem;
+        background-image: url(../assets/img/avada-movers-movewithease-background-new.jpg);
+    }
     .under{
         margin-top: 3.75rem;
+        margin-left: 30rem;
         border: 20px solid #5aa511;
         background-color: #6abf17;
         width: 31.25rem;
-        position: absolute;
-        left: 37.5rem;
         
         h6, h2, hr, p, button{
             text-align: center;

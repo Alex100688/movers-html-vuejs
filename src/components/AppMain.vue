@@ -14,21 +14,19 @@ export default {
     }
 </script>
 <template>
-    <div class="container">
-        <div class="background-first">
-            <AppSectionStart/>
-        </div>
-        <div>
-            <AppSectionCenter/>
-        </div>
-        <div class="center-under">
-            <AppSectionCenterUnder/>
-        </div>
-        <div>
-            <AppSectionEnd/>
-        </div>
-
+    <div class="background-first">
+        <AppSectionStart class="container"/>
     </div>
+    <div>
+        <AppSectionCenter class="container"/>
+    </div>
+    <div>
+        <AppSectionCenterUnder class="container"/>
+    </div>
+    <div>
+        <AppSectionEnd class="container"/>
+    </div>
+
 </template>
 
 
@@ -36,9 +34,5 @@ export default {
     .background-first{
         background-color: #f4f8fb;
     }
-    .center-under{
-        margin-top: 3.75rem;
-        background-image: url(../assets/img/avada-movers-movewithease-background-new.jpg);
-        position: relative;
-    }
+
 </style>
