@@ -24,11 +24,7 @@
 
 
 <style lang="scss" scoped>
-    .center-under{
-        margin-top: 3.75rem;
-        background-image: url(../assets/img/avada-movers-movewithease-background-new.jpg);
-        position: relative;
-    }
+    
     .under{
         margin-top: 3.75rem;
         border: 20px solid #5aa511;
