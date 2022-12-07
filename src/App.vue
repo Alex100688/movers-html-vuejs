@@ -22,4 +22,10 @@ export default {
 <style lang="scss">
 @import "./style/global.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+.general-button{
+  background-color: #1775bf;
+  color: #ffff;
+  font-size: .875rem;
+  font-weight: 900;
+}
 </style>
