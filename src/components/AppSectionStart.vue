@@ -44,6 +44,7 @@
     }
     button{
         margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
         width: 15.625rem;
         height: 1.875rem;
         border-radius: 1.875rem;

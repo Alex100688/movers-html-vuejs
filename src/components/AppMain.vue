@@ -1,8 +1,10 @@
 <script>
-import AppSectionStart from './AppSectionStart.vue'
+import AppSectionStart from './AppSectionStart.vue';
+import AppSectionCenter from './AppSectionCenter.vue';
 export default {
     components: {
         AppSectionStart,
+        AppSectionCenter,
         },
     name:"AppMain"   
     }
@@ -10,6 +12,9 @@ export default {
 <template>
     <div class="background-first">
         <AppSectionStart class="container "/>
+    </div>
+    <div>
+        <AppSectionCenter class="container"/>
     </div>
 </template>
 
