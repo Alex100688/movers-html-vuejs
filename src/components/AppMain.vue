@@ -2,13 +2,15 @@
 import AppSectionStart from './AppSectionStart.vue';
 import AppSectionCenter from './AppSectionCenter.vue';
 import AppSectionCenterUnder from './AppSectionCenterUnder.vue';
-import AppSectionEnd from './AppSectionEnd.vue'
+import AppSectionEnd from './AppSectionEnd.vue';
+import AppSectionSecondEnd from './AppSectionSecondEnd.vue';
 export default {
     components: {
         AppSectionStart,
         AppSectionCenter,
         AppSectionCenterUnder,
         AppSectionEnd,
+        AppSectionSecondEnd,
         },
     name:"AppMain"   
     }
@@ -26,7 +28,9 @@ export default {
     <div>
         <AppSectionEnd class="container"/>
     </div>
-
+    <div>
+        <AppSectionSecondEnd class="container"/>
+    </div>
 </template>
 
 
