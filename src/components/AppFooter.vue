@@ -1,12 +1,16 @@
 <script>
-    export default {
+    import FirstFooter from './FirstFooter.vue';
+export default {
+        components: {
+            FirstFooter,
+        },
     name: "AppFooter"
         
     }
 </script>
 <template>
-    <div>
-
+    <div class="container">
+        <FirstFooter/>
     </div>
 </template>
 
