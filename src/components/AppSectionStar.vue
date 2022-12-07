@@ -15,6 +15,7 @@
             magnis dis parturient montes, ridilus mus. Alquam enim leo, condimentum facilisis nulla sed, cursurs
             arcu. <br> Aliquam enim leo.
         </p>
+        <button type="button" class="general-button">READ OUR TESTIMONIALS</button>
     </div>
 </template>
 
@@ -24,6 +25,7 @@
         margin-top: 3.75rem;
     }
     small{
+        margin-top: 1.25rem;
         margin-bottom: .625rem;
         font-weight: 900;
         
@@ -39,5 +41,11 @@
     p{
         text-align: center;
         color:#777777;
+    }
+    button{
+        margin-top: 1.25rem;
+        width: 15.625rem;
+        height: 1.875rem;
+        border-radius: 1.875rem;
     }
 </style>

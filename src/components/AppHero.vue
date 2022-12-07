@@ -29,9 +29,11 @@
             <small class="my-1 general-small">PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION</small>
         </div>
     </div>
-    <div class="final-link">
-        <i class="fa-solid fa-location-arrow"></i><small class="mx-2">GET A FREE QUOTE ONLINE NOW!</small>
-    </div>
+    <Section class="color-link">
+        <div class="final-link">
+            <i class="fa-solid fa-location-arrow"></i><small class="mx-2">GET A FREE QUOTE ONLINE NOW!</small>
+        </div>
+    </Section>
    
 </template>
 
@@ -58,8 +60,7 @@
     button{
         width: 8.125rem;
         height: 1.75rem;
-        border-radius: 20%;
-        border: none;
+        border-radius: 1.875rem;
         text-align: center;
         line-height: 1.875rem;
     }
@@ -72,9 +73,11 @@
             font-weight: 900;
         }
     }
-    .final-link{
-        margin: 6.25rem;
+    .color-link{
         background-color: #1775bf;
+    }
+    .final-link{
+        margin: 6.25rem;  
         color: #ffff;
         height:3.75rem ;
         text-align: center;

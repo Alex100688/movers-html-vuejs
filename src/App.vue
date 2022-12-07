@@ -25,6 +25,7 @@ export default {
 .general-button{
   background-color: #1775bf;
   color: #ffff;
+  border: none;
   font-size: .875rem;
   font-weight: 900;
 }
