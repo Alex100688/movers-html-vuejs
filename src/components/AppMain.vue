@@ -1,15 +1,15 @@
 <script>
-import AppSectionStar from './AppSectionStar.vue'
+import AppSectionStart from './AppSectionStart.vue'
 export default {
     components: {
-        AppSectionStar,
+        AppSectionStart,
         },
     name:"AppMain"   
     }
 </script>
 <template>
     <div class="background-first">
-        <AppSectionStar class="container "/>
+        <AppSectionStart class="container "/>
     </div>
 </template>
 

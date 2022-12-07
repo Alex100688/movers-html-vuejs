@@ -1,6 +1,6 @@
 <script>
     export default {
-        name:"AppSectionStar",
+        name:"AppSectionStart",
     }
 </script>
 <template>
